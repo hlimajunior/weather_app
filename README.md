@@ -5,6 +5,8 @@ Para utilizar, instale as dependências do projeto que constam no arquivo requir
 
 pip install -r requirements.txt
 
-Coloque sua APP_KEY no arquivo main.py na linha
+Coloque sua APP_KEY no arquivo utils_weather.py na linha
 
-api_key = "SUA API_KEY"
+api_key_code = "sua_api_key"
+
+A API_Key pode ser obtida no site openweathermap.org
