@@ -1,1 +1,1 @@
-api_key_code = "8c849d816b2afc68d3051fb32e8d5386"
+api_key_code = "sua_api_key"
