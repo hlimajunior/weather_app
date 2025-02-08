@@ -12,7 +12,7 @@ from PyQt5.QtWidgets import (
 
 from PyQt5.QtCore import Qt
 from datetime import datetime
-
+from utils_weather import api_key_code
         
 class WeatherApp(QWidget):
     def __init__(self):
@@ -79,7 +79,7 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
-        api_key = "SUA_API_KEY"
+        api_key = api_key_code
         city = self.city_input.text()
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&lang=pt_br&appid={api_key}"
 
