@@ -1,0 +1,33 @@
+{
+    "coord": {"lon": -46.7917, "lat": -23.5325},
+    "weather": [
+        {"id": 800, "main": "Clear", "description": "céu limpo", "icon": "01d"}
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 28.13,
+        "feels_like": 29.09,
+        "temp_min": 27.55,
+        "temp_max": 29.29,
+        "pressure": 1014,
+        "humidity": 55,
+        "sea_level": 1014,
+        "grnd_level": 924,
+    },
+    "visibility": 10000,
+    "wind": {"speed": 7.2, 
+            "deg": 150},
+    "clouds": {"all": 0},
+    "dt": 1738955997,
+    "sys": {
+        "type": 1,
+        "id": 8394,
+        "country": "BR",
+        "sunrise": 1738918222,
+        "sunset": 1738965140,
+    },
+    "timezone": -10800,
+    "id": 3455775,
+    "name": "Osasco",
+    "cod": 200,
+}

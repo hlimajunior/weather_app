@@ -1,0 +1,44 @@
+# Diretórios de ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Arquivos de cache e compilação
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# Configurações do editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de logs e debugging
+*.log
+*.out
+*.err
+debug.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Pacotes distribuíveis e build
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Arquivos de dependências gerados
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Arquivos de configuração sensíveis
+*.env
+.env.*
+.secret
+config.json
+secrets.json
